@@ -1,0 +1,199 @@
+/*
+
+    font-family: 'Space Mono', monospace;
+
+    font-family: 'Patrick Hand SC', cursive;
+
+    font-family: 'Bowlby One SC', cursive;
+
+    font-family: 'Abril Fatface', cursive;
+
+    font-family: 'Lobster', cursive;
+
+    font-family: 'Monoton', cursive;
+
+    font-family: 'Alfa Slab One', cursive;
+
+    font-family: 'Sunflower', sans-serif;
+
+    font-family: 'Anaheim', sans-serif;
+
+    font-family: 'Goudy Bookletter 1911', serif;
+ */
+
+ body {
+  font-family: 'Anaheim', sans-serif;
+ }
+
+#navigation {
+  font-family: 'Lobster', cursive;
+  background-color: #323232;
+  box-shadow: 0px 6px 5px #888888;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  cursor: default;
+ }
+
+ #navigation li {
+  display: inline-block;
+  padding: 5px 30px 5px 30px;
+  font-size: 26px;
+  background: linear-gradient(to right,#00ffdb, #005ab3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+
+#top {
+  /* background: radial-gradient(white 37%, dimgray 200%); */
+  /* height: 1000px; */
+}
+
+.container {
+  width : 80% !important;
+}
+
+#navigation > .container {
+  margin-bottom: 0px !important;
+}
+
+#profile {
+  border-radius: 500px;
+  width:400px;
+  border: 2px solid #80808066;
+}
+
+#profile_icons {
+  width:400px;
+}
+
+#title_name {
+  font-size:40px;
+  float: left;
+  padding: 5px;
+  color:white;
+  background-color: #323232;
+  font-family: 'Space Mono', monospace;
+}
+
+#title_desc {
+  font-size:26px;
+  float: left;
+  text-align: left;
+  padding-top: 60px;
+  color: grey;
+  /* background-color: #323232; */
+  font-family: 'Space Mono', monospace;
+}
+
+.key {
+  ont-size:40px;
+  float: left;
+  padding: 5px;
+  color:white;
+  background-color: #323232;
+  font-family: 'Space Mono', monospace;
+
+}
+.value {
+  font-size:26px;
+  float: left;
+  text-align: left;
+  color: grey !important;
+  /* background-color: #323232; */
+  font-family: 'Space Mono', monospace;
+
+}
+
+.spray {
+  background-color: #323232;
+   color:white;
+    padding: 5px;
+}
+
+li {
+  list-style-type: disc;
+}
+
+#skill_list li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+#main {
+  margin-left: 0px !important;
+}
+
+#pitch {
+  margin-top:2%;
+}
+
+#profile_image {
+  margin-left: 13%;/*kk*/
+
+}
+
+
+
+
+
+#header, #headerToggle {
+  visibility: hidden;
+}
+
+
+
+
+
+#work_exp {
+  text-align: left;
+
+}
+
+
+#work_exp_ul{
+  /* text-align: left; */
+
+}
+
+
+
+/*
+.avatar {
+    display: block;
+    border-radius: 200px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 5px solid #cfd8dc;
+}
+
+img {
+    height: 200px;
+    width: 200px
+}
+
+
+
+.circleborder {
+width: 300px;
+height: 300px;
+border-radius: 150px;
+-webkit-border-radius: 150px;
+-moz-border-radius: 150px;
+background: url(URL) no-repeat;
+box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+} */
