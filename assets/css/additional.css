@@ -21,10 +21,8 @@
     font-family: 'Goudy Bookletter 1911', serif;
  */
 
-body {
-
+ body {
   font-family: 'Anaheim', sans-serif;
-
  }
 
 #navigation {
@@ -50,8 +48,8 @@ body {
  }
 
 #top {
-  background: radial-gradient(white 37%, dimgray 200%);
-  height: 800px;
+  /* background: radial-gradient(white 37%, dimgray 200%); */
+  /* height: 1000px; */
 }
 
 .container {
@@ -65,9 +63,71 @@ body {
 #profile {
   border-radius: 500px;
   width:400px;
-  border: 4px solid #808080;
-  /* margin-left: 54px; */
+  border: 2px solid #80808066;
 }
+
+#profile_icons {
+  width:400px;
+}
+
+#title_name {
+  font-size:40px;
+  float: left;
+  padding: 5px;
+  color:white;
+  background-color: #323232;
+  font-family: 'Space Mono', monospace;
+}
+
+#title_desc {
+  font-size:26px;
+  float: left;
+  text-align: left;
+  padding-top: 60px;
+  color: grey;
+  /* background-color: #323232; */
+  font-family: 'Space Mono', monospace;
+}
+
+.key {
+  ont-size:40px;
+  float: left;
+  padding: 5px;
+  color:white;
+  background-color: #323232;
+  font-family: 'Space Mono', monospace;
+
+}
+.value {
+  font-size:26px;
+  float: left;
+  text-align: left;
+  color: grey !important;
+  /* background-color: #323232; */
+  font-family: 'Space Mono', monospace;
+
+}
+
+.spray {
+  background-color: #323232;
+   color:white;
+    padding: 5px;
+}
+
+li {
+  list-style-type: disc;
+}
+
+#skill_list li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+
+
+
+
 
 
 
@@ -95,13 +155,7 @@ body {
 
 
 
-#title_name {
-  font-size:100px;
-  text-align: left;
-  color:grey;
-  /* text-shadow: 2px 2px #ff0000; */
 
-}
 
 #work_exp {
   text-align: left;
@@ -114,14 +168,7 @@ body {
 
 }
 
-#title_desc {
-  font-size:30px;
-  text-align: left;
-  color: grey;
-  /* text-shadow: 2px 2px #000000; */
-  /* text-shadow: 2px 2px #ff0000; */
 
-}
 
 /*
 .avatar {

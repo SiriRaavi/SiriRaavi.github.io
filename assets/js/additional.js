@@ -26,7 +26,14 @@ window.addEventListener("mobile", function() {
 
   $("#top").css({"padding": top_top_padding+"px 0px 4em 0px"});
 
-  $("#profile").css({  "width": (window_width/5)+"px"});
+  if((window_width/5)<=200){
+    $("#profile").css({  "width": "200px"});
+    $("#profile_icons").css({  "width": "200px"});
+  }else{
+    $("#profile").css({  "width": (window_width/5)+"px"});
+    $("#profile_icons").css({  "width": (window_width/5)+"px"});
+  }
+
 
 });
 
@@ -35,16 +42,9 @@ window.addEventListener("desktop", function() {
   var top_top_padding = $("#navigation").height() + 50
   var window_width = $(window).width();
 
-  $("#top").css(
-    {
-      "padding": top_top_padding+"px 0px 4em 0px"
-    }
-  );
+  $("#top").css({"padding": top_top_padding+"px 0px 4em 0px"});
+  $("#profile").css({  "width": (window_width/5)+"px"});
+  $("#profile_icons").css({  "width": (window_width/5)+"px"});
 
-  $("#profile").css(
-    {
-      "width": (window_width/5)+"px"
-    }
-  );
 
 });
