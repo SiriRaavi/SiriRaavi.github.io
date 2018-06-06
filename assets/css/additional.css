@@ -56,7 +56,7 @@
  #navigation li {
   display: inline-block;
   padding: 5px 30px 5px 30px;
-  font-size: 26px;
+  font-size: 22px;
   color: #3c2424;
  }
 
@@ -136,13 +136,22 @@
   float: left;
   text-align: left;
 
-  padding: 65px 0px 0px 0px;
+  padding: 80px 0px 0px 0px;
 
   color: grey;
 
   /* background-color: #ffdcdc; */
 
   font-family: 'Space Mono', monospace;
+}
+
+
+
+#skill_list2 li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px;
+
 }
 
 .key {
@@ -219,6 +228,11 @@ border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
 -ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 outline: 0;
+}
+
+.proj_head {
+  color: #7f97a1;
+
 }
 
 /* #d_resume:hover {
